@@ -30,7 +30,6 @@ https://oneapi.io/ for more information.
 ### AI - Computer Vision
 
 * [DPCPP-image-Blurring-with-SYCL](https://github.com/FriedImage/DPCPP-Image-Blurring-with-SYCL) - A program developed with DPC++ SYCL for parallelizing the Image Blurring process.
-* [visionicpp](https://github.com/codeplaysoftware/visioncpp) - A machine vision library written in SYCL and C++ that shows performance-portable implementation of graph algorithms
 
 ### AI - Data Science
 

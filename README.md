@@ -31,10 +31,6 @@ https://oneapi.io/ for more information.
 
 * [DPCPP-image-Blurring-with-SYCL](https://github.com/FriedImage/DPCPP-Image-Blurring-with-SYCL) - A program developed with DPC++ SYCL for parallelizing the Image Blurring process.
 
-### AI - Data Science
-
-* [Boosting epistasis detection on Intel CPU+GPU systems](https://github.com/hiperbio/cross-dpc-episdet) - This work focuses on exploring the architecture of Intel CPUs and Integrated Graphics and their heterogeneous computing potential to boost performance and energy-efficiency of epistasis detection. This will be achieved making use of OpenCL Data Parallel C++ and OpenMP programming models.
-* [root-experimental](https://github.com/jolly-chen/root/tree/gpu_histogram_bulk/tree/experimental) - Jolly Chen's fork of root.cern demnostrating porting RDataFrame to SYCL from CUDA.
 
 ### AI - Machine Learning
 
@@ -46,12 +42,10 @@ https://oneapi.io/ for more information.
 
 * [CTranslate2](https://github.com/OpenNMT/CTranslate2) - CTranslate2 is a C and Python library that optimizes inference with transformer models, supporting models trained in various frameworks. It implements various performance optimization techniques such as weights quantization, layers fusion, batch reordering, and more for benchmarks of transformer models on CPU and GPU.
 * [hachi](https://github.com/ramanlabs-in/hachi) - Hachi is a locally hosted web app that enables natural language search for videos and images, using an AI-based machine learning model powered by OpenAI CLIP.
-* [whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) - Whisper ctranslate2 is a command-line client based on ctranslate2, compatible with original OpenAI client.
 
 ### AI - Frameworks and Toolkits
 
-* [deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) - The Eclipse DeepLearning4J ecosystem supports all the needs for JVM-based deep learning applications with various libraries
-* [deeplearning4j-examples](https://github.com/deeplearning4j/deeplearning4j-examples) - The Eclipse Deeplearning4j (DL4J) ecosystem is a set of projects that supports all the needs of a JVM-based deep learning application.
+* [deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) - The Eclipse DeepLearning4J ecosystem supports all the needs for JVM-based deep learning applications with various libraries.
 * [DeepRec](https://github.com/DeepRec-AI/DeepRec) - DeepRec is a recommendation deep learning framework based on TensorFlow, which has been developed since 2016 and supports core businesses such as Taobao search recommendation and advertising.
 * [dlstreamer](https://github.com/dlstreamer/dlstreamer) - The Intel Deep Learning Streamer is an open source streaming media analytics framework based on the GStreamer multimedia framework. It is optimized for performance and functional interoperability between GStreamer plugins built on various backend libraries, with support for over 70 pre-trained models for various use cases.
 * [flashlight](https://github.com/flashlight/flashlight) - Flashlight is a machine learning library written in C and created by Facebook AI Research. It features internal APIs for tensor computation, high performance defaults using just-in-time kernel compilation, and scalability
@@ -79,7 +73,6 @@ https://oneapi.io/ for more information.
 * [Brayns](https://github.com/BlueBrain/Brayns) - Brayns is a large scientific visualization platform based on CPU ray tracing, using an extension plugin architecture. It comes with several pre-made plugins, such as CircuitExplorer and MoleculeExplorer, and requires several dependencies to build
 * [ChameleonRT](https://github.com/Twinklebear/ChameleonRT) - ChameleonRT is an example path tracer that runs on multiple ray tracing backends including Embree, SYCL, DXR, Optix, Vulkan, Metal, and Ospray.
 * [embree](https://github.com/embree/embree) - Embree is a high performance ray tracing library developed by Intel that targets graphics application developers to improve the performance of photo-realistic rendering applications. It includes various primitive types such as triangles, quads, grids, and curve primitives, and supports dynamic scenes. Embree also offers support for both CPUs and GPUs, while maintaining one code base to improve productivity and eliminate inconsistencies between the two versions of the renderer.
-* [fresnel](https://github.com/glotzerlab/fresnel) - Fresnel is a Python library for path tracing that can be used to generate high quality images in real time.
 * [f3d](https://github.com/f3d-app/f3d) - F3D is a fast and minimalist 3D viewer that supports multiple file formats and can show animations, supporting thumbnails and many rendering and texturing options including real-time physically based rendering and raytracing.
 * [hdospray](https://github.com/ospray/hdospray) - The ospray for hydra is an open-source plugin for Pixar's USD to extend the hydra rendering framework with Intel Ospray. It is highly optimized for Intel CPU architectures ranging from laptops to large-scale distributed HPC systems.
 * [LightWave Explorer](https://github.com/NickKarpowicz/LightwaveExplorer) - Lightwave explorer is an open source nonlinear optics simulator, intended to be fast, visual, and flexible for students and researchers to play with ultrashort laser pulses and nonlinear optics without having to buy a laser first.
@@ -87,7 +80,6 @@ https://oneapi.io/ for more information.
 * [openpgl](https://github.com/OpenPathGuidingLibrary/openpgl) - The Intel Open Path Guiding Library (Open PGL) implements path guiding into a renderer, offering implementations of current state-of-the-art path guiding methods which increase the sampling quality and renderer efficiency.
 * [ospray](https://github.com/ospray/ospray) - Ospray is an open source, scalable and portable ray tracing engine designed for high fidelity visualization on Intel architecture CPUs. It allows users to easily build interactive applications using ray-tracing based rendering for both surface and volume-based visualizations.
 * [ospray_studio](https://github.com/ospray/ospray_studio) - Ospray Studio is an open-source, interactive visualization and ray tracing application that utilizes Intel Ospray as its core rendering engine. Users can create scene graphs to render complex scenes with high-fidelity or very large scenes requiring supercomputing resources.
-* [tracer](https://github.com/JoshuaSenouf/tracer) - Tracer is a renderer that uses Embree and USD to produce photorealistic images using path tracing on the CPU, with features like subpixel jitter antialiasing, depth of field, and a variety of integrators.
 * [vistle](https://github.com/vistle/vistle) - Vistle is a modular data-parallel visualization system. It requires a C++14 compatible compiler that supports ISO/IEC 14882:2014, alongside compiling requirements of Boost, CMake and MPI. Additionally, it supports Covise, OpenCover, OpenSceneGraph and Qt 5 libraries, and also provides support code, rendering libraries, controlling code for Vistle session and visualization algorithm modules.
 
 ### Energy
@@ -104,7 +96,6 @@ https://oneapi.io/ for more information.
 
 ### Misc
 
-* [MuSYCL](https://github.com/keryell/muSYCL) - muSYCL, the SYCL musical! This is a small music synthesizer to experiment with C++23 programming, design patterns and acceleration on hardware accelerators like GPU, FPGA or CGRA with the SYCL 2020 standard.
 * [SYCL-samples](https://github.com/codeplaysoftware/SYCL-samples) - A collection of samples written using the SYCL standard for C++.
 
 
@@ -119,13 +110,11 @@ https://oneapi.io/ for more information.
 * [bfs-sycl-fpga](https://github.com/kaanolgu/bfs-sycl-fpga) - The Breadth-First Search algorithm implementations _memoryBFS_ and _streamingBFS_ using Intel oneAPI (SYCL2020) on Intel FPGAs
 * [dedekind-MKL](https://github.com/stefan-zobel/dedekind-MKL) - Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library (oneMKL) on Windows and Linux.
 * [Discrete Cosine Transform Imeage Compression](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/SpectralMethods/DiscreteCosineTransform) - (C++ based, from Intel) The Discrete Cosine Transform (DCT) sample demonstrates how DCT and Quantizing stages can be implemented to run faster using SYCL* by offloading image processing work to a GPU or other device.
-* [Direction Field Visualization with Python](https://github.com/olutosinbanjo/direction_field) - This project demonstrates the visualization of a direction field with Python using the differential equation of a falling object as a case study.  The effectiveness of Heterogeneous Computing is also shown by exploring optimized libraries added functionalities in Intel® Distribution for Python.
 * [GinkgoOneAPI](https://github.com/ginkgo-project/ginkgo) - In this project we want to explore the potential of having an Intel OneAPI backend for the Gingko software package: https://ginkgo-project.github.io/
-* [GROMACS](https://www.gromacs.org/) A free and open-source software suite for high-performance molecular dynamics and output analysis.
+* [GROMACS](https://github.com/gromacs/gromacs) A free and open-source software suite for high-performance molecular dynamics and output analysis.
 * [repulsive-surfaces](https://github.com/icethrush/repulsive-surfaces) - A numerical framework for optimization of surface geometry while avoiding (self-)collision.
 * [Grid](https://github.com/dbollweg/Grid.git) - Data parallel C++ mathematical object library.
 * [gtensor](https://github.com/wdmapp/gtensor) - gtensor is a multi-dimensional array C++14 header-only library for hybrid GPU development. It was inspired by xtensor, and designed to support the GPU port of the GENE fusion code.
-* [Homogeneous and Heterogeneous Implementations of a tridiagonal solver on Intel® Xeon® E-2176G with oneMKL getrs](https://github.com/olutosinbanjo/oneMKL_getrs.git) - Homogeneous and Heterogeneous implementations of a tridiagonal solver with oneMKL getrs
 * [Jacobi Iterative Solver for Multi-GPU](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/DenseLinearAlgebra/guided_jacobi_iterative_gpu_optimization) - (C++ based, from Intel) Illustrates how to use the Jacobi Iterative method to solve linear equations. This sample starts with a CPU-oriented application and shows how to use SYCL to offload regions of the code to a GPU. The sample walks through developing an optimization strategy by iteratively optimizing the code and ultimately targetting multi-GPUs if available.
 * [LAMMPS](https://github.com/lammps/lammps) - LAMMPS is a classical molecular dynamics simulation code designed to run efficiently on parallel computers.  It was developed at Sandia National Laboratories, a US Department of Energy facility, with funding from the DOE.  It is an open-source code, distributed freely under the terms of the GNU Public License (GPL) version 2.
 * [mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) - MapMap CPU is a massively parallel generic MRF map solver with minimal input assumptions, capable of solving a large class of MRF problems.
@@ -135,7 +124,6 @@ code to SYCL.
 * [mt-kahypar](https://github.com/kahypar/mt-kahypar) - MT-KaHyPar is a multi-threaded algorithm for partitioning graphs and hypergraphs. It aims to minimize an objective function defined on the hyperedges while balancing block sizes and optimizing connectivity. It can partition extremely large graphs and hypergraphs with comparable solution quality to the best sequential graph partitioners while being more than an order of magnitude faster with only ten threads.
 * [NAMD](https://www.ks.uiuc.edu/Research/namd/) is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems.
 * [NWGraph](https://github.com/pnnl/NWGraph) - The Northwest Graph Library (NWGraph) is a high-performance header-only generic C++ graph library based on C++20 concepts and ranges. It includes multiple graph algorithms for well-known graph kernels and supporting data structures.
-* [octotiger](https://github.com/STEllAR-GROUP/octotiger) - Octo-Tiger is an astrophysics program simulating the evolution of star systems based on the fast multipole method on adaptive Octrees. It was implemented using high-level C++ libraries, specifically HPX and Vc, which allows its use on different hardware platforms.
 * [Odd Even Merge and Sorting](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/StructuredGrids/1d_HeatTransfer) - (C++ based, from Intel) Demonstrates how to use the odd-even mergesort algorithm (also known as "Batcher's odd–even mergesort") which may benefit whenn working with  batches of short-sized to mid-sized (key, value) array pairs.  Shows how to migrate CUDA based code to SYCL.
 * [Optical Flow Method](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/StructuredGrids/guided_HSOpticalflow_SYCLMigration) - (C++ based, from Intel) The HSOpticalFlow sample is a computation of per-pixel motion estimation between two consecutive image frames caused by movement of object or camera. Shows how to migrate CUDA based code to SYCL.
 * [portBLAS](https://github.com/codeplaysoftware/portBLAS) - An implementation of BLAS using the SYCL open standard.
@@ -148,8 +136,6 @@ code to SYCL.
 
 ### Tools and Development
 * [ArrayFire - oneAPI Backend](https://github.com/arrayfire/arrayfire) - ArrayFire is a general-purpose tensor library that simplifies the process of software development for the parallel architectures found in CPUs GPUs and other hardware acceleration devices. This project is to develop a oneAPI backend to the library which currently supports CUDA OpenCL and x86.
-* [ArrayFire - Rust Bindings](https://github.com/arrayfire/arrayfire-rust) - Rust bindings for ArrayFire  a general-purpose tensor library that simplifies the process of software development for the parallel architectures found in CPUs GPUs and other hardware acceleration devices. This project is to develop a oneAPI backend to the library which currently supports CUDA OpenCL and x86.
-* [amrex-sycl](https://github.com/farscape-project/amrex-sycl) - A SYCL plug-in to run AMReX apps on AMD/Nvidia GPUs. The plug-in consists of a build script and code patches which extend AMReX's SYCL capability beyond Intel GPUs.
 * [chip-spv](https://github.com/CHIP-SPV/chip-spv) - The "chip spv" project allows for the portability of HIP and CUDA applications to platforms supporting SPIR-V. Currently, it offers support for OpenCL and Level-Zero as low-level runtime alternatives.
 Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on Windows and Linux
 * [dedekind-MKL](https://github.com/stefan-zobel/dedekind-MKL) - Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library (oneMKL) on Windows and Linux.
@@ -169,26 +155,20 @@ Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on
 * [Open-source Scientific Applications and Benchmarks](https://github.com/zjin-lcf/oneAPI-DirectProgramming) - This repository contains a collection of data-parallel programs for evaluating oneAPI direct programming. Each program is written with CUDA, SYCL, and OpenMP target offloading. Intel® DPC++ Compatibility Tool (DPCT) can convert a CUDA program to a SYCL program.
 * [p2rng](https://github.com/arminms/p2rng) -  A modern header-only C++ library for parallel algorithmic (pseudo) random number generation supporting OpenMP, CUDA, ROCm and oneAPI.
 * [PTXprofiler](https://github.com/ProjectPhysX/PTXprofiler) - A simple profiler to count Nvidia PTX assembly instructions of OpenCL/SYCL/CUDA kernels for roofline model analysis.
-* [PySYCL](https://gthub.com/PySYCL/PySYCL) - SYCL functionalities within Python for GPU targeted development.
 * [RayBNN_Raytrace](https://github.com/BrosnanYuen/RayBNN_Raytrace) -  Ray tracing library using GPUs, CPUs, and FPGAs via CUDA, OpenCL, and oneAPI 
 * [RcppParallel](https://github.com/RcppCore/RcppParallel) - The rcppparallel project provides high-level functions for parallel programming with Rcpp and supports using Intel TBB for performance on Windows, macOS, and Linux systems. 
-* [R-oneMKL](https://github.com/R-OneMKL/oneMKL) - The oneMKL package establishes the connection between the R environment and Intel oneAPI Math Kernel Library (oneMKL), a prerequisite of using oneMKL.MatrixCal package. Specifically, oneMKL provides necessary header files and dynamic library files to R, and imports files from the packages mkl, mkl-include, and intel-openmp from Anaconda. 
-* [SimSYCL](https://github.com/celerity/SimSYCL) - SimSYCL is a single-threaded, synchronous, library-only implementation of the SYCL 2020 specification. It enables you to test your SYCL applications against simulated hardware of different characteristics and discover bugs with its extensive verification capabilities.
 * [Spyker](https://github.com/ShahriarRezghi/Spyker) - High-performance Spiking Neural Networks Library Written From Scratch with C++ and Python Interfaces.
 * [SYCLomatic](https://github.com/oneapi-src/SYCLomatic) - The SycloMatic project helps developers migrate code to the SYCL heterogeneous programming model. Daily builds are available, but not rigorously tested for production quality control.
 * [SYnergy](https://github.com/unisa-hpc/SYnergy) -  Energy Measurement and Frequency Scaling for SYCL applications. 
 * [SYCLops](https://github.com/Huawei-PTLab/SYCLops) - A SYCL-specific LLVM-to-MLIR converter.
-* [syclreduce](https://github.com/ORNL/syclreduce) - This is a tiny package implementing what is a giant unmet need in SYCL2020 - proper reductions. Want to sum a vector coming from every thread in a kernel launch? Want to accumulate a couple different kinds of diagnostic output from a kernel? Too bad. SYCL doesn't have full documentation on how span<> works, and you'll easily get lost writing your own undefined type reducer.
 * [TAU Performance System](https://github.com/UO-OACISS/tau2) - The TAU Performance System® supports profiling and tracing of programs written using the Intel OneAPI. Intel OneAPI provides two interfaces for programming - OpenCL and DPC++/SYCL for CPUs and GPUs. TAU supports both - the OpenCL profiling interface and Intel Level Zero API to observe performance. 
 * [TornadoVM](https://github.com/beehive-lab/TornadoVM) - TornadoVM is an open-source software technology that automatically accelerates Java programs on multi-core CPUs GPUs and FPGAs.
 * [toyBrot](https://gitlab.com/VileLasagna/toyBrot) - toyBrot is a raymarching fractal generator that is used both as a  simple benchmarking tool and a study tool for parallelisation. The code is is implemented with over 10 different technologies including Intel TBB ISPC and SYCL (with support for oneAPI)
 * [XFluids](https://github.com/XFluids/XFluids) - a unified cross-architecture heterogeneous CFD solver that suports Nvidia, Amd and Intel GPUs.
-* [ZFP](https://github.com/LLNL/zfp) - zfp is a compressed format for representing multidimensional floating-point and integer arrays. zfp provides compressed-array classes that support high throughput read and write random access to individual array elements. zfp also supports serial and parallel compression of whole arrays for applications that read and write large data sets to and from disk.
+
 
 ## Tutorials
 
-* [50YearsOfRayTracing](https://github.com/neil3d/50YearsOfRayTracing) - This GitHub project is focused on ray tracing and covers several techniques and models developed from 1968 to 1997, with a focus on physically based rendering.
 * [data-parallel-CPP](https://github.com/Apress/data-parallel-CPP) - The Data Parallel C Book Source Samples repository contains code that accompanies the Data Parallel C: Mastering DPC for Programming of Heterogeneous Systems using C++ and SYCL book.
-* [efficient-dl-systems](https://github.com/mryab/efficient-dl-systems) - This repository contains materials for the Efficient Deep Learning Systems course taught at the HSE University and Yandex School of Data Analysis.
 * [Jurassic](https://github.com/IntelSoftware/Jurassic) - Hunting Dinosaur bones using AI
 * [syclacademy](https://github.com/codeplaysoftware/syclacademy) - SYCL Academy, a set of learning materials for SYCL heterogeneous programming

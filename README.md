@@ -165,6 +165,8 @@ Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on
 * [TornadoVM](https://github.com/beehive-lab/TornadoVM) - TornadoVM is an open-source software technology that automatically accelerates Java programs on multi-core CPUs GPUs and FPGAs.
 * [toyBrot](https://gitlab.com/VileLasagna/toyBrot) - toyBrot is a raymarching fractal generator that is used both as a  simple benchmarking tool and a study tool for parallelisation. The code is is implemented with over 10 different technologies including Intel TBB ISPC and SYCL (with support for oneAPI)
 * [XFluids](https://github.com/XFluids/XFluids) - a unified cross-architecture heterogeneous CFD solver that suports Nvidia, Amd and Intel GPUs.
+* [Hypre](https://github.com/hypre-space/hypre/blob/58eb704fca222f54f340baa0e13eb7a71779343e/src/seq_mv/vector_device.c) - Parallel solvers for sparse linear systems featuring multigrid methods.
+  
 
 
 ## Tutorials

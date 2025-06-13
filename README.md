@@ -42,6 +42,7 @@ https://oneapi.io/ for more information.
 
 * [CTranslate2](https://github.com/OpenNMT/CTranslate2) - CTranslate2 is a C and Python library that optimizes inference with transformer models, supporting models trained in various frameworks. It implements various performance optimization techniques such as weights quantization, layers fusion, batch reordering, and more for benchmarks of transformer models on CPU and GPU.
 * [hachi](https://github.com/ramanlabs-in/hachi) - Hachi is a locally hosted web app that enables natural language search for videos and images, using an AI-based machine learning model powered by OpenAI CLIP.
+* [ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp/blob/f6d5fbdc5780b6dca770c896b8463de3239c7f8b/ggml/src/ggml-sycl.cpp) - This repository is a fork of llama.cpp with better CPU and hybrid GPU/CPU performance, new SOTA quantization types, first-class Bitnet support, better DeepSeek performance via MLA, FlashMLA, fused MoE operations and tensor overrides for hybrid GPU/CPU inference, row-interleaved quant packing, etc.
 
 ### AI - Frameworks and Toolkits
 
@@ -97,6 +98,7 @@ https://oneapi.io/ for more information.
 ### Misc
 
 * [SYCL-samples](https://github.com/codeplaysoftware/SYCL-samples) - A collection of samples written using the SYCL standard for C++.
+* [FIRESTARTER](https://github.com/tud-zih-energy/FIRESTARTER/blob/e2a90c91c25f239f9e5751a2435f9d66843cfc51/src/firestarter/OneAPI/OneAPI.cpp)- FIRESTARTER, a processer stress test utility, maximizes the energy consumption of 64-Bit x86 processors by generating heavy load on the execution units as well as transferring data between the cores and multiple levels of the memory hierarchy.
 
 
 ### Mathematics and Science
@@ -133,6 +135,10 @@ code to SYCL.
 * [SPHinxXsys](https://github.com/Xiangyu-Hu/SPHinXsys) - SPHinXsys provides C++ APIs for physically accurate simulation and optimization. It aims to handle coupled industrial dynamic systems including fluid, solid, multi-body dynamics and beyond. The multi-physics library is based a unique and unified computational framework by which strong couplings have been achieved for all involved physics.
 [suanPan](https://github.com/TLCFEM/suanPan) - suanPan is a finite element method (FEM) simulation platform for applications in fields such as solid mechanics and civil/structural/seismic engineering. The name suanPan (in some places such as suffix it is also abbreviated as suPan) comes from the term Suan Pan (算盤), which is Chinese abacus.
 [sycl-collision-sim](https://github.com/rafbiels/sycl-collision-sim) - Demo 3D simulation of rigid body physics with different shapes bouncing off each other confined in a box. Two implementations are provided, one sequential with standard C++ code compiled for CPU, and parallel SYCL implementation which can be compiled for any target device (e.g. a GPU) supported by a SYCL compiler.
+* [PW-DFT](https://github.com/ebylaska/PWDFT/blob/8f0362426c8a07d8b2ea00229c1b4917850cb2b5/Nwpw/nwpwlib/D3dB/d3db.hpp.bad_sycl) - Plane-Wave density-functional theory (DFT) development for NWChemEx electronic structure software. An easy way to generate input decks, check your output decks against a large database of calculations, perform simple thermochemistry calculations, calculate the NMR and IR spectra of modest size molecule using NWChem.
+* [xpm](https://github.com/dp-69/xpm/blob/1f53445e0a91e8e5872f8c069c9a05ee9dfb4f1f/libs/hypre/src/seq_mv/csr_spgemm_device_onemklsparse.c) - xpm (Extensive Pore Modelling) is a software for predicting flow properties in multi-scale porous media. It uses a pore network model derived from image data, specifically using Pnextract to extract this network.
+* [stan-dev](https://github.com/stan-dev/math/blob/9f23455a2ed6896a31b83e8f8d5529dcdd74a65c/lib/sundials_6.1.1/src/sunmatrix/onemkldense/sunmatrix_onemkldense.cpp) - The Stan Math Library is a C++, reverse-mode automatic differentiation library designed to be usable, extensive and extensible, efficient, scalable, stable, portable, and redistributable in order to facilitate the construction and utilization of algorithms that utilize derivatives.
+* [COGENT](https://github.com/LLNL/COGENT/blob/83f3a719faf8ea70d8bfa2d57082b416c7955a40/COGENT/hypre/src/seq_mv/csr_matvec_device.c) - COGENT is a continuum (Eulerian) plasma simulation code. It is primarily focused on tokamak edge plasma geometries, but includes options for, and is extensible to, other configurations. This repository contains the COGENT code (COGENT/) as well as Chombo (Chombo/), the adaptive mesh refinement application framework from Lawrence Berkeley National Laboratory upon which COGENT is built.
 
 ### Tools and Development
 * [ArrayFire - oneAPI Backend](https://github.com/arrayfire/arrayfire) - ArrayFire is a general-purpose tensor library that simplifies the process of software development for the parallel architectures found in CPUs GPUs and other hardware acceleration devices. This project is to develop a oneAPI backend to the library which currently supports CUDA OpenCL and x86.
@@ -166,6 +172,8 @@ Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on
 * [toyBrot](https://gitlab.com/VileLasagna/toyBrot) - toyBrot is a raymarching fractal generator that is used both as a  simple benchmarking tool and a study tool for parallelisation. The code is is implemented with over 10 different technologies including Intel TBB ISPC and SYCL (with support for oneAPI)
 * [XFluids](https://github.com/XFluids/XFluids) - a unified cross-architecture heterogeneous CFD solver that suports Nvidia, Amd and Intel GPUs.
 * [Hypre](https://github.com/hypre-space/hypre/blob/58eb704fca222f54f340baa0e13eb7a71779343e/src/seq_mv/vector_device.c) - Parallel solvers for sparse linear systems featuring multigrid methods.
+* [compadre](https://github.com/sandialabs/compadre/blob/0e3c7025fd2bd38c75c9975d12514a0d0c78a19b/kokkos-kernels/sparse/src/KokkosSparse_spmv_handle.hpp) - The Compadre Toolkit provides a performance portable solution for the parallel evaluation of computationally dense kernels. The toolkit specifically targets the Generalized Moving Least Squares (GMLS) approach, which requires the inversion of small dense matrices. The result is a set of weights that provide the information needed for remap or entries that constitute the rows of some globally sparse matrix.
+
   
 
 

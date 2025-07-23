@@ -31,6 +31,9 @@ https://oneapi.io/ for more information.
 
 * [DPCPP-image-Blurring-with-SYCL](https://github.com/FriedImage/DPCPP-Image-Blurring-with-SYCL) - A program developed with DPC++ SYCL for parallelizing the Image Blurring process.
 
+### AI - Data Science 
+
+* [daal4py](https://github.com/agorshk/daal4py) - A simplified API to Intel® DAAL that allows for fast usage of the framework suited for Data Scientists or Machine Learning users. Built to help provide an abstraction to Intel® DAAL for either direct usage or integration into one's own framework.
 
 ### AI - Machine Learning
 
@@ -44,6 +47,7 @@ https://oneapi.io/ for more information.
 * [XLA](https://github.com/intelligent-machine-learning/xla) - XLA (Accelerated Linear Algebra) is an open-source machine learning (ML) compiler for GPUs, CPUs, and ML accelerators. The XLA compiler takes models from popular ML frameworks such as PyTorch, TensorFlow, and JAX, and optimizes them for high-performance execution across different hardware platforms including GPUs, CPUs, and ML accelerators.
 * [TPU-MLIR](https://github.com/sophgo/tpu-mlir) - TPU-MLIR is an open-source machine-learning compiler based on MLIR for TPU. This project provides a complete toolchain, which can convert pre-trained neural networks from different frameworks into binary files bmodel that can be efficiently operated on TPUs.
 * [Px0](https://github.com/official-pikafish/px0) - Px0 is a UCI-compliant xiangqi engine designed to play xiangqi via neural network, specifically those of the PikaXiangqiZero project.
+* [OAP MLlib](https://github.com/smartyrad/oap-mllib) - OAP MLlib is an optimized package to accelerate machine learning algorithms in Apache Spark MLlib. It is compatible with Spark MLlib and leverages open source Intel® oneAPI Data Analytics Library (oneDAL) to provide highly optimized algorithms and get most out of CPU and GPU capabilities. It also take advantage of open source Intel® oneAPI Collective Communications Library (oneCCL) to provide efficient communication patterns in multi-node multi-GPU clusters.
 
 
 ### AI - Natural Language Processing
@@ -81,7 +85,6 @@ https://oneapi.io/ for more information.
 * [MegEngine](https://github.com/MegEngine/MegEngine) - MegEngine is a fast, scalable and easy-to-use deep learning framework, with auto-differentiation.
 * [OneFlow](https://github.com/Oneflow-Inc/oneflow) - OneFlow is a performance-centered and open-source deep learning framework.
 * [MagmaDNN](https://github.com/MagmaDNN/magmadnn) - A neural network library in c++ aimed at providing a simple, modularized framework for deep learning that is accelerated for heterogeneous architectures.
-* [Apache MXNet](--) - Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It allows you to mix symbolic and imperative programming to maximize efficiency and productivity. At its core, MXNet contains a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on the fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. MXNet is portable and lightweight, scalable to many GPUs and machines.
 
 ### Autonomous Systems
 
@@ -101,6 +104,7 @@ https://oneapi.io/ for more information.
 * [ospray](https://github.com/ospray/ospray) - Ospray is an open source, scalable and portable ray tracing engine designed for high fidelity visualization on Intel architecture CPUs. It allows users to easily build interactive applications using ray-tracing based rendering for both surface and volume-based visualizations.
 * [ospray_studio](https://github.com/ospray/ospray_studio) - Ospray Studio is an open-source, interactive visualization and ray tracing application that utilizes Intel Ospray as its core rendering engine. Users can create scene graphs to render complex scenes with high-fidelity or very large scenes requiring supercomputing resources.
 * [vistle](https://github.com/vistle/vistle) - Vistle is a modular data-parallel visualization system. It requires a C++14 compatible compiler that supports ISO/IEC 14882:2014, alongside compiling requirements of Boost, CMake and MPI. Additionally, it supports Covise, OpenCover, OpenSceneGraph and Qt 5 libraries, and also provides support code, rendering libraries, controlling code for Vistle session and visualization algorithm modules.
+* [Accelerating 3D Gaussian Splatting Rendering through Level-of-Detail Structure](---) - The 3D Gaussian Splatting method for 3D environment reconstruction from images brought significant advancements to photorealistic novel-view synthesis. It combines the advantages of primitive-based rendering with a differentiable renderer, thus obtaining state-of-the-art image quality and surpassing neural methods for scene representation in optimization and rendering speed.
 
 ### Energy
 
@@ -164,6 +168,11 @@ code to SYCL.
 * [esys-escript](https://github.com/LutzGross/esys-escript.github.io/blob/7febaf389dd54a51723cec4c4a0326c483ce53bf/trilinos_source16/packages/kokkos-kernels/sparse/src/KokkosSparse_spmv_handle.hpp) - esys-escript is a module for implementing mathematical models in Python using the finite element method (FEM). As users do not access the underlying data structures it is very easy to use and scripts can run on desktop computers as well as massive parallel supercomputers without changes. Application areas for esys-escript include geophysical inversion, earthquakes, porous media flow, reactive transport, plate subduction, erosion, earth mantle convection, and tsunamis.
 * [code_saturne](https://github.com/aneoconsulting/code_saturne/blob/d84b5bd20873aeeeaed4429f6358f200ace2b63e/src/alge/cs_matrix_spmv.cpp) - The basic capabilities of code_saturne enable the handling of either incompressible or expandable flows with or without heat transfer and turbulence. Dedicated modules are available for specific physics such as radiative heat transfer, combustion (gas, coal, heavy fuel oil, ...), magneto-hydrodynamics, compressible flows, two-phase flows (Euler-Lagrange approach with two-way coupling), or atmospheric flows.
 * [TASMANIAN](https://github.com/ORNL/TASMANIAN) - The Toolkit for Adaptive Stochastic Modeling and Non-Intrusive ApproximatioN is a collection of robust libraries for high dimensional integration and interpolation as well as parameter calibration.
+* [COSMA](https://github.com/toxa81/COSMA) - COSMA is a parallel, high-performance, GPU-accelerated, matrix-matrix mutliplication algorithm that is communication-optimal for all combinations of matrix dimensions, number of processors and memory sizes, without the need for any parameter tuning.
+* [Apache MXNet](--) - Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It allows you to mix symbolic and imperative programming to maximize efficiency and productivity. At its core, MXNet contains a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on the fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. MXNet is portable and lightweight, scalable to many GPUs and machines.
+* [HeavyDB](https://github.com/heavyai/heavydb) - HeavyDB is an open source SQL-based, relational, columnar database engine that leverages the full performance and parallelism of modern hardware (both CPUs and GPUs) to enable querying of multi-billion row datasets in milliseconds, without the need for indexing, pre-aggregation, or downsampling
+* [MFLib](https://github.com/uofuseismo/mflib) - A Matched Filtering Library. In principle, the algorithm is quite simple in that it computes a Pearson correlation coefficient at every sample in a time series corresponding to a template. However, the actual implementation in a compiled language is tedious.
+
 
 
 ### Tools and Development
@@ -201,6 +210,7 @@ Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on
 * [compadre](https://github.com/sandialabs/compadre/blob/0e3c7025fd2bd38c75c9975d12514a0d0c78a19b/kokkos-kernels/sparse/src/KokkosSparse_spmv_handle.hpp) - The Compadre Toolkit provides a performance portable solution for the parallel evaluation of computationally dense kernels. The toolkit specifically targets the Generalized Moving Least Squares (GMLS) approach, which requires the inversion of small dense matrices. The result is a set of weights that provide the information needed for remap or entries that constitute the rows of some globally sparse matrix.
 *  [TESSE](https://github.com/TESSEorg/ttg/blob/529039d86ddbae667002420a99860d361fc34463/examples/spmm/devicegemm.h) - This is the C++ API for the Template Task Graph (TTG) programming model for flowgraph-based composition of high-performance algorithms executable on distributed heterogeneous computer platforms. The TTG API abstracts out the details of the underlying task and data flow runtime; the current realization is implemented using MADNESS and PaRSEC runtimes as backends.
 *  [DistributedFFT](https://github.com/lueelu/DistributedFFT/blob/94d279f3caf5ab883047e89159d17e9f4000c8c2/heffte/heffte/include/heffte_backend_oneapi.h) - A Highly Efficient GPU Framework for Fast Fourier Transform across Mixed Nodes. This library is being developed to support highly efficient distributed FFT computation on multicore CPU and GPU architectures.
+* [HPAT](https://github.com/fschlimb/hpat) - High Performance Analytics Toolkit (HPAT) scales analytics/ML codes in Python to bare-metal cluster/cloud performance automatically. It compiles a subset of Python (Pandas/Numpy) to efficient parallel binaries with MPI, requiring only minimal code changes
 
   
 

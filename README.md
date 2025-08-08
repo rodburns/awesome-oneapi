@@ -114,6 +114,7 @@ https://oneapi.io/ for more information.
 ### Gaming
 
 * [NovelRT](https://github.com/novelrt/NovelRT) - NovelRT is a cross-platform game engine for visual novels and 2D games. It is still in the early alpha stage, but currently supports graphics and audio.
+* [WebWowViewerCpp](https://github.com/Deamon87/WebWowViewerCpp) - The aim of this project is to create an opensource viewer of models and maps for World of Warcraft. There are two frontends built using this code: standalone map viewer and webgl library built for web.
 
 ### Manufacturing
 
@@ -123,6 +124,7 @@ https://oneapi.io/ for more information.
 
 * [SYCL-samples](https://github.com/codeplaysoftware/SYCL-samples) - A collection of samples written using the SYCL standard for C++.
 * [FIRESTARTER](https://github.com/tud-zih-energy/FIRESTARTER/blob/e2a90c91c25f239f9e5751a2435f9d66843cfc51/src/firestarter/OneAPI/OneAPI.cpp)- FIRESTARTER, a processer stress test utility, maximizes the energy consumption of 64-Bit x86 processors by generating heavy load on the execution units as well as transferring data between the cores and multiple levels of the memory hierarchy.
+* [COMPASS](https://github.com/wangwei6688/COMPASS) - Based on a dynamic database schema, recorded air traffic surveillance data can be imported into database, analysed, inspected and evaluated.
 
 
 ### Mathematics and Science
@@ -181,6 +183,13 @@ code to SYCL.
 * [NESO (Neptune Exploratory SOftware)](https://github.com/ExCALIBUR-NEPTUNE/NESO) - This is a work-in-progress respository for exploring the implementation of a series of tokamak exhaust relevant models combining high order finite elements with particles, written in C++ and SYCL.
 * [Ewald-Splitting-with-Prolates](https://github.com/LiangJiuyang/Ewald-Splitting-with-Prolates) - This fork includes custom modifications for the ESP (Ewald summation with prolate spheroidal wave functions) method.
 * [CUTLASS](https://github.com/sommerlukas/cutlass-fork) - CUTLASS is a collection of CUDA C++ template abstractions for implementing high-performance matrix-matrix multiplication (GEMM) and related computations at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement cuBLAS and cuDNN.
+* [heyoka](https://github.com/bluescarni/heyoka) - heyoka is a C++ library for the integration of ordinary differential equations (ODEs) via Taylor's method, based on automatic differentiation techniques and aggressive just-in-time compilation via LLVM.
+* [Comparing parallel asynchronous frameworks with prime sieve](https://github.com/lums658/sieve_exec_comparison) - The sieve of Eratosthenes is a well-known (and ancient) algorithm for finding prime numbers. The algorithm maintains a list of all numbers up to a certain value. Starting at 2, the algorithm finds the next number in the list that has not been crossed off and then crosses off all multiples of that number from the list. If we maintain the list of numbers as a bitmap, with true meaning a number is prime, we just iterate through the list with a stride equal to the current prime, setting each corresponding location to false.
+* [cascade](https://github.com/esa/cascade) - cascade is a C++/Python library developed to propagate the evolution of large number of orbiting objects while detecting reliably close encounters and collisions. It is coded in modern C++20 with focus on the efficency of the underlying N-body simulation with collision/conjunction detection. Its development was motivated to help conjunction tracking and collision detection of orbiting space debris populations.
+* [Spatial Model Editor](https://github.com/spatial-model-editor/spatial-model-editor) - A GUI editor to create and edit spatial SBML models of bio-chemical reactions and simulate them using the dune-copasi solver for reaction-diffusion systems.
+* [Phyno](https://github.com/netboz/phyno) - Phyno (for Physic Node) is a physic simulation engine over MQTT.
+* [CGraphIndex](https://github.com/Hongweihuo-Lab/CGraphIndex) - CGraphIndex [1] is a novel compressed self-index for labeled property multidigraphs. It for the first time achieves the kth-order entropy space bound for multidigraph properties (the dominant term in practice) and the 1st-order graph entropy for multidigraph structures. A self-index actually encodes the original input and thus there is no need to store the input separately.
+* [laplace-fmm](https://github.com/ViktorAushev/laplace-fmm) - Implementation of the fast multipole method for the Laplace equation in 2d and 3d (rotation-based), parallelized with MPI, TBB and CUDA. This description will be completed later.
 
 
 ### Tools and Development
@@ -223,6 +232,15 @@ Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on
 * [Quinoa](https://github.com/quinoacomputing/archive) - Quinoa is a set of computational tools that enables research and numerical analysis in fluid dynamics. Using the Charm++ runtime system, it employs asynchronous (or non-blocking) parallel programming and decompose computational problems into a large number of work units (that may be more than the available number of processors) enabling arbitrary overlap of parallel computation, communication, input, and output.
 * [Altis-SYCL](https://github.com/esa-tu-darmstadt/altis_sycl) - Altis-SYCL is a SYCL-based implementation of the Altis GPGPU benchmark suite (originally written in CUDA) for CPUs, GPUs, and FPGAs.
 * [OneAPI Crystal](https://github.com/mspronesti/oneapi-crystal) - This library is the DPC++ porting (and extension) of the Crystal library, originally written in CUDA. It Implements a collection of block-wide device functions that can be used to implement high performance implementations of SQL queries on CPUs and GPUs.
+* [twin_search](https://github.com/tlarock/twin_search) - Code for enumerating all hypergraphs that correspond to a weighted node co-occurence matrix, called the set of twins. C++ library for enumerating sets of twins from hypergraph node co-occurrence adjacency matrices
+* [The bioconda channel](https://github.com/imgag/bioconda-recipes) - Conda is a platform- and language-independent package manager that supports easy distribution, installation and version management of software. The bioconda channel is a Conda channel providing bioinformatics related packages for Linux and macOS, supporting both x86_64 and aarch64/arm64 architectures. This repository hosts the corresponding recipes.
+* [PISA: Performant Indexes and Search for Academia](https://github.com/pisa-engine/pisa) - PISA is a text search engine able to run on large-scale collections of documents. It allows researchers to experiment with state-of-the-art techniques, allowing an ideal environment for rapid development.
+* [Project: Metis Wrapper](https://github.com/juelinl/npmetis) - This project provides a user-friendly C++ wrapper around the robust Metis K-Way graph partitioning algorithm, enabling seamless usage with versatile NumPy arrays for input and output data representation.
+* [SubrosaDG](https://github.com/SubrosaDG-dev/SubrosaDG) - SubrosaDG is a CFD project that uses the high-order discontinuous Galerkin (DG) method for computation. The project is based on the pure template construction of C++23 and is open-sourced under the MIT license.
+* [Peano](https://github.com/ZhouXinghi/Peano4) - Peano is an open-source framework for solvers on dynamically adaptive Cartesian meshes. Its core is built with C++, but many tools around it are written in Python. Peano is based upon the fact that spacetrees, a generalisation of the classical octree concept, yield a cascade of adaptive Cartesian grids. Consequently, any spacetree traversal is equivalent to an element-wise traversal of the hierarchy of the adaptive Cartesian grids.
+*[SIDO](https://github.com/sarathnandu/sido) - SIDO project aims in improving the performance of code regions by applying various code transformations or provide hints to the application developer on hand optimizing the code for a given platform. We measure CPU architectural events and memory stalls to identify performance bottlenecks and guide loop level transformation and other optimizations for optimal code generation.
+*[Parallel Minimum Cycle Basis Library](https://github.com/d-michail/parmcb) - This project implements algorithms to compute exact and approximate Minimum Cycle Bases of weighted graphs. The library is written in C++-14 using the Boost Graph libraries for the underlying graph implementation. It supports parallel and distributed execution using the TBB (Intel Threading Building Blocks) library and MPI.
+[OpenMP Repository Analysis](https://github.com/GersonCavalheiro/OpenMPSnapshot) - The contents of this repository were made available to enable investigations into public GitHub repositories that use OpenMP in their code.
 
   
 
